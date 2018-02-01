@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+header {
+	margin-top: 30px;
+	margin-left: 30px;
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+body {
+	background: #222222;
+	background-image: url(../midia/bg/bg1.jpg);
+	background-size: cover;
+	color: #dddddd;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	margin: 0;
+}
+
+	/* ------------ Index ---------------*/
+
+#titulo {
+	margin-top: 180px;;
+}
+
+#titulo h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 85px;
+	margin-bottom: -15px;
+}
+
+#trabalhos {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 42vh;
+	margin-bottom: 35px;
+}
+
+.portfolio img {
+	width: 500px;
+	max-width: 100%;
+	margin: 15px;
+	border: 3px solid black;
+	filter: grayscale(30%);
+}
+
+.portfolio img:hover {
+	/*opacity: 0.7;*/
+	filter: grayscale(80%);
+}
+
+.portfolio a {
+	text-decoration: none;
+}
+
+	/* -------------footer--------------*/
+footer {
+	background: #1c1c1c;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #CDCDCD;
+}
+
+footer img {
+	filter: grayscale(100%);
+}
+
+footer p{
+	font-size: 12px;
+}
+
+.bio {
+	display: block;
+	margin: 25px 0 0 0;
+	padding: 50px 0 20px 0;
+	background: #1c1c1c;
+	color: white;
+}
+
+#escrito {
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+	/*-----The side navigation menu-----*/
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #0f0f0f; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	text-align: left;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#mais {
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+
+	/*-----Scrollbar personalizada------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+}
+
+	/* ------------ Conhecimentos ---------------*/
+#conhecimentos {
+	width: 90vw;
+	margin: auto;
+	height: 100vh;
+	margin-top: -55px;
+}
+
+#conhecimentos p {
+	font-size: 30px;
+}
+
+#tabela {
+	text-align: center;
+	margin: auto;
+}
+
+#tabela td {
+	padding: 0px 25px 0px 25px;
+}

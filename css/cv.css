@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+#cabecalho h1 {
+	color: orangered;
+	font-size: 35px;
+}
+
+.cv {
+	margin-top: 50px;
+	font-size: 17px;
+	text-align: center;
+}
+
+.cv h3 {
+	color: orangered;
+}
+
+#con {
+	font-size: 18px;
+	color:  orangered;
+}
